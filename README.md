@@ -1,4 +1,4 @@
-# Generation Code for LOST: Library of Image Simulation Transformations and Augmentations
+# Code and Pipeline for Generating libraries from image, maps and PBRs transformations by collecting, suggesting and adapting models from science, math and art for image manipulation
 
 Scripts for generating a library of image and maps transformations and augmentations methods using an agentic AI pipeline that collect suggest and adapt scientific models, methods, and simulations.
 
