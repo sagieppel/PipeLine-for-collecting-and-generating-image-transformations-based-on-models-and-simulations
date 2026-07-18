@@ -1,0 +1,9 @@
+I have set of maps corresponding to PBR materials and Textures.
+I want to imitate the effect of various of materials transformation on this image.
+For example: create melting effect, burning effect,  degredation, cracking, sendimation... 
+With the image as the material (note the image can be RGB textures, or set of stack PBR maps with multiple channels)
+
+My goal is to create a library of image  transformation  that create/imitate the effect of diverse range physical/ material transformations.
+I want you to suggest ideas both original and standard materials transformations and effect that can be simulated/replicated on images (melting, burning, cracking, degrading, rotting, bleaching...).
+Think carefully and suggest @@@number_of_new@@@ ideas. Explain each idea generally  and leave the details for the implementation stages.
+

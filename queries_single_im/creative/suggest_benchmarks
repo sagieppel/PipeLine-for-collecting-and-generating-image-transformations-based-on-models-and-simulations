@@ -1,0 +1,8 @@
+I want to examine the effect of various transformations of image. I want to use it to image any number of channels or stack maps (like RGB, Multispectral, PBR  or other stack maps maps).
+My goal is to create a library of novel and creative image  transformations.
+Think of novel and creative way in which image can be transformed, for example the image drained into sink,  the image being eaten by bugs, burn, or fold.
+You can invent novel ideas or combine exisiting method novel ways.
+(Try to make the result visually interesting and gradual).
+ 
+Think carefully and suggest @@@number_of_new@@@ ideas. Explain each idea generally  and leave the details for the implementation stages.
+

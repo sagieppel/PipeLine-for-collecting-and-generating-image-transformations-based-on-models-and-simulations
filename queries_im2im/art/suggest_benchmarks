@@ -1,0 +1,11 @@
+I want to examine the effect of various transformations/transitions between two images (transforming one image/maps into the other in a gradual way). I want to use it to image any number of channels and depth (for example PBR maps).
+My goal is to create a library that covers image-to-image transformation/transitions  based  artistic methods.
+
+Be  creative and think how different art method can use to transform one to another. This can be idea from painting, digital art, and even ideas from other field like scupture that can creatively adapted for this task.
+For example one image is painted on top of the other, or sculptured from the other.
+Be creative and think out of the box.
+
+Think carefully and suggest @@@number_of_new@@@ ideas. Explain each idea generally  and leave the details for the implementation stages.
+
+
+

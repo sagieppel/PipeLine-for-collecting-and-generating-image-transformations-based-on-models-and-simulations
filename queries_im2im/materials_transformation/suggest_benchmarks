@@ -1,0 +1,12 @@
+I have textures images representing PBR maps and materials.
+I want to examine the effect of various transformations/transitions between two materials (transforming one image/maps into the other in a gradual way). I want to use it to image any number of channels and depth (for example PBR maps stack on top of each other).
+My goal is to create a library that covers image-to-image transformation/transitions that mimic material transformation (aka one image gradually transform to another in a way that mimic physical transformation). For example, one phase transition (one material/transform to another), melting one material melt to reveal the other, burning, flow, rearangment, cracking (one material crack to uncover the other), desposition, spin coating...
+
+Be  creative and think how  different transformation between materials can be used to transform between image in way that will replicate the visual transformation of materials.
+For example one image is painted on top of the other, or sculptured from the other.
+Be creative and think out of the box.
+
+Think carefully and suggest @@@number_of_new@@@ ideas. Explain each idea generally  and leave the details for a later implementation stages.
+
+
+

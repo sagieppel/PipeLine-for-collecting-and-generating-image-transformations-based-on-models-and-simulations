@@ -1,0 +1,10 @@
+ 
+Analyze the above specific task description and code, and try to identify potential issues and errors  in the code.
+
+Please provide your response in the format of a JSON dictionary of the following structure:
+
+
+{ "corrections": "yes"/"no" Have you found errors or corrections, and fixed the  code? If "yes", you must provide the fix code in the code field,
+  "code": If you made corrections, provide the corrected code in this field.
+  "discussion": Explain in plain text what issues you find and changes you made
+ }

@@ -1,0 +1,22 @@
+
+I want to create new  shape transforming method  but need to make sure no identical or very similar transformation already in the list.
+
+
+Can you identify any transformation in the following list  that is very similar basically identical to:
+ **benchmark_name**
+
+Here is list of existing benchmarks:
+
+**existing benchmark**
+
+Note if the method have partial overlap with  method in the list dont consider this as a full match.
+Only if the two tasks are basically the same.
+
+Provide your response in the format of a json file of the following structure:
+
+
+{
+"match": "full"/"none"/"partial" is there very similar or identical benchmark already in the list,
+"similar": list of matching similar or partially similar benchmark in format ["benchmark name 1, name 2....],
+"explain": explain which benchmark in the list is basically similar to this benchmark
+}

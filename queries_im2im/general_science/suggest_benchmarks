@@ -1,0 +1,11 @@
+I want to examine the effect of various transformations/transitions between two images (transforming one image/maps into the other in a gradual way). I want to use it to image any number of channels and depth (for example PBR maps).
+My goal is to create a library that covers image-to-image transformation/transitions  based on inspired by scientific models from all field like physics biology geology engineering methods and other. For example biological growth where one image growth on top of the other.
+Physical system in which one image is degrade to reveal the other deposition process in one image is gradually deposit on top of the other, or melted to reveal the other, phase transformation in which one image is the stable phase....
+Be creative and think how various of scientific models and systems can be adapted for creating image to image transformation. 
+You can pick models from every field of science, engineering and math and are encourage to use as many field as possible.
+
+ 
+Think carefully and suggest @@@number_of_new@@@ ideas. Explain each idea generally  and leave the details for the implementation stages.
+
+
+

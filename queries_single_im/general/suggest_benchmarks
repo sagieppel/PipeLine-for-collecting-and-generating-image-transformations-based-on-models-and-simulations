@@ -1,0 +1,7 @@
+I want to examine the effect of various transformations of image. I want to use it to image any number of channels or stack maps (like RGB, Multispectral, PBR  or other stack maps maps).
+My goal is to create a library of image  transformation  that  inspire or use scientific  models and mathematic functions.
+For example,  image as field, medium, concentration.
+You can use models from every field of science biology, geology, math, physics... For example use the image as resource consume by agent, flow field, landscape eroded/deposited flow, image as concentration field being effect by attractor. Be flexible creative and think how different mathematical system, physical and scientific could be used on image.
+for example image as concentration field, potential field, chemical media, concentration field... With the goal of to transform the image in interesting way.
+Think carefully and suggest @@@number_of_new@@@ ideas. Explain each idea generally  and leave the details for the implementation stages.
+

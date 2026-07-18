@@ -1,0 +1,11 @@
+I want to examine the effect of various transformations/transitions between two images (transforming one image/maps into the other in a gradual way). I want to use it to image any number of channels and depth (for example PBR maps).
+My goal is to create a library that covers image-to-image transformation/transitions  based on based on mathematical models and functions.
+For example diffrential equations, cellular automata, topologt models, geometry...
+Be creative and think how various of mathematical systems can be adapted for creating image to image transformation. 
+ 
+
+ 
+Think carefully and suggest @@@number_of_new@@@ ideas. Explain each idea generally  and leave the details for the implementation stages.
+
+
+

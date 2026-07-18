@@ -1,0 +1,41 @@
+I want to use the method  ***@@@Method Name@@@*** to transform  an image  (The image could be RGB, Multi channel, stack PBR..).
+
+The method is defined as:
+***@@@Method Description@@@***
+
+In general I want to use/adjust this method as a python function that will receive a set of maps and transform it.
+
+
+
+
+* The transformation should also be efficient taking no more than a few minutes (for 512x512 image).
+
+* Use efficient NumPy / vectorized operations where possible.
+
+* You are allowed to use any standard trusted python package.
+
+* If the method have boundary conditions, use periodic boundaries conditions. 
+
+
+Your output should be a self containing python script with function:
+
+***def transform(maps,params=None,numsteps=10)***
+
+***maps***   is a numpy array with uint8 type  and size [h,w,ch] **ch** is the number of channels and will be between 1-100, notes there can be many maps stack together but they all represent the same system (like RGB, hyper spectral, or stack PBR maps of given material) treat them as single image.
+
+***params*** is a dictionary with model parameters (optional) set optional reasonable value in case the user dont set parameters.
+
+***num_steps*** is the number of steps in the transformation (optional), if irrelevant or there is no way to control the number of steps, ignore this. If the number of steps is controllable  add default value (in case the user doesn't put value) . Note that the default number of steps should not be above 60  (you free to decide based on the method, in doubt use 10).
+
+The output should  be list of maps with same  number of channel and size and  the input  ***maps***. Each element in the list should represent the state of the system in this step of the transformation.
+
+Note that @@@Method Name@@@ might not be directly made to transform images/maps and the way you adjust it to this task can be creative and flexible, but try to capture the general idea beyond the method even if only as an approximation or toy model. 
+
+Provide your response in  a machine readable JSON format  of the following structure:
+
+{
+“code”: the code as described above ready to run,
+“Succeed”: “yes”/“no” Did you succeed in generating the code?
+ 
+}
+

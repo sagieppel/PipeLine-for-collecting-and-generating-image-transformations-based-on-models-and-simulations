@@ -1,0 +1,10 @@
+I want to examine the effect of various transformations/transitions between two images (transforming one image/maps into the other in a gradual way). I want to use it to image any number of channels and depth (for example PBR maps).
+My goal is to create a library that covers image-to-image transformation/transitions  for visual editing.
+
+Be  creative and think how different method can use to transform one image to another.  You can think of standart approach like vfx like cross fading topological replacemnt or any known method for cross image transition, you can also be original but make the transition interesting/visually appealing but also real time.
+ 
+
+Think carefully and suggest @@@number_of_new@@@ ideas. Explain each idea generally  and leave the details for the implementation stages.
+
+
+

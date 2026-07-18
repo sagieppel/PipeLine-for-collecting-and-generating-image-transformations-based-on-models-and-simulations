@@ -1,0 +1,35 @@
+import os
+import shutil
+import cv2
+import importlib, os, sys
+sys.path.insert(0, os.path.abspath("@@subdir@@"))
+import transform  as trans
+importlib.reload(trans)
+
+if os.path.exists("@@outdir@@"):
+   shutil.rmtree("@@outdir@@")
+os.mkdir("@@outdir@@")
+
+list_im=os.listdir("@@img_dir@@")
+
+
+out_dir= "@@outdir@@//out1"
+im_start = cv2.imread("@@img_dir@@"+"//"+list_im[0])
+im_finish = cv2.imread("@@img_dir@@"+"//"+list_im[1])
+im_start = cv2.resize(im_start,[512,512])
+im_finish = cv2.resize(im_finish,[512,512])
+
+trans.trans_im(im_start,im_finish, out_dir)
+cv2.imwrite(out_dir+"//start.jpg",im_start)
+cv2.imwrite(out_dir+"//finish.jpg",im_finish)
+
+out_dir= "@@outdir@@//out2"
+im_start = cv2.imread("@@img_dir@@"+"//"+list_im[2])
+im_finish = cv2.imread("@@img_dir@@"+"//"+list_im[3])
+im_start = cv2.resize(im_start,[512,512])
+im_finish = cv2.resize(im_finish,[512,512])
+
+trans.trans_im(im_start,im_finish, out_dir)
+cv2.imwrite(out_dir+"//start.jpg",im_start)
+cv2.imwrite(out_dir+"//finish.jpg",im_finish)
+

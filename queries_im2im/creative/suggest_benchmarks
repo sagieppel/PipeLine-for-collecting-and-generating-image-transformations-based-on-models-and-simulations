@@ -1,0 +1,8 @@
+I want to examine the effect of various transformations/transitions between two images (transforming one image/maps into the other in a gradual way). I want to use it to image any number of channels and depth (for example PBR maps).
+My goal is to create a library that covers image-to-image transformation/transitions.
+I want you to suggest novel, creative, intrestint and out of the box ways in which one image could be transform to another (using code).
+Dont be affraid to think out of the box (for example one image eat/drink the other or growth on top of the other)
+Think carefully and suggest @@@number_of_new@@@ ideas. Explain each idea generally  and leave the details for the implementation stages.
+
+
+

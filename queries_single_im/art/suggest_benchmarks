@@ -1,0 +1,6 @@
+I want to examine the effect of various transformations of image. I want to use it to image any number of channels or stack maps (like RGB, Multispectral, PBR  or other stack maps maps).
+My goal is to create a library of image  transformation inspired by artistic concepts and methods.
+For example, gradually paint the image, or carved, or filled or colored...
+Think of ideas from all fields of art both digital and physical and how they can be used to to transform image or maps in interesting ways.
+Think carefully and suggest @@@number_of_new@@@ ideas. Explain each idea generally  and leave the details for the implementation stages.
+

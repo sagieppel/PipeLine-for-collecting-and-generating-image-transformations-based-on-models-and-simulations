@@ -1,0 +1,7 @@
+ Please reformat your previous response as json with the following structure:
+{"transformation 1 name":
+             {"description":Detailed description of the suggested transformation, why it tests important/basic aspects of vision, and how it can be implemented (in general no need for code)}
+"transformation 2 name":...}
+
+Output only the json no other text what so ever.
+I will take your response and put it with no changes in json.load() any additional comments other then the json will results in error.

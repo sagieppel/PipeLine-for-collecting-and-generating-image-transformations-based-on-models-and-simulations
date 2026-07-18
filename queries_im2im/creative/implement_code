@@ -1,0 +1,37 @@
+I want to use the method  ***@@@Method Name@@@*** to transform between two images or two set of maps.
+
+The method is defined as:
+***@@@Method Description@@@***
+
+In general I want to implement this method as a python function that will receive two sets of maps and gradually transform  one to the other. The maps themselves can be RGB images, PBR materials, or any other maps with no limit on the number of channels or what they represent.
+
+
+Note that the transformation should be gradual, and consistent across the different maps (Think of material phase transition between two PBRs).
+* The transformation should model the core  aspect  of @@@Method Name@@@ even if as an approximation or toy model. Don't just create visual patterns inspired by it while ignoring the actual system.
+* The transformation should also be efficient, taking no more than 10 minutes on a good computer (for 512x512 image) , prioritizing efficient calculation and using numpy vectorization.
+
+* Preferably  use the image as an active ingredient in the model for example: pixel values as substrate/ fields/medium/repeller/attractor…
+* If the method have boundary conditions, use periodic boundaries conditions. 
+
+Your output should be a self containing python script with function:
+***def transform(start_map,end_map,params=None,numsteps=10)***
+
+***start_map*** and ***end_map**  are  the start and end map each map is  numpy array with uint8 format and size [w,h,ch]  h,w are  height and width (usually 512-1024)  ch is the number of channels and will be between 1-100 (same number for start and end maps).
+
+
+***params*** (optional)  is a dictionary with model parameters  if no adjustable parameters dont add this. This is optional parameter and should have default value.
+
+***num_steps*** (optional) is the number of steps in the transformation, if there is no way to control the number of steps, don't add this parameter. This is optional parameter and should have default value  preferably no more than 60 (you allow to decide but in doubt use 10).
+
+The output of the function should be a list  of maps of  same structure and maps  as ***start_map*** Each map in the list should represent the state of the system in this step of the transformation.  
+
+Note that @@@Method Name@@@ is might not directly made to transform images or other maps and the way you implement it to this task can be creative and flexible, but try to capture the general idea even as toy model or approximation.
+
+Provide your response in  a machine readable JSON format  of the following structure:
+
+{
+“code”: the code as described above ready to run,
+“Succeed”: “yes”/“no” Did you succeed in generating the code?
+"notes": notes on the implementation (optional)
+}
+

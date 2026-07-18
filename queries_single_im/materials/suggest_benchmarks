@@ -1,0 +1,7 @@
+I want to examine the effect of various transformations of image. I want to use it to image any number of channels or stack maps (like RGB, Multispectral, PBR  or other stack maps maps).
+My goal is to create a library of image  transformation  that mimic material transformation and chemistry process.
+For example: melting, cracking, burning, diffusion, erosion, phase transition, phase separation, and processes and models from all fields of chemistry and material science.
+I want you to suggest @@@number_of_new@@@ ideas on how this can be done.
+Be creative and think how different processes from this field can be adapted to be used on images (for example the different pixels or layer consumed as nutrient, burning material, field...). 
+Think carefully and suggest @@@number_of_new@@@ ideas. Explain each idea generally  and leave the details for the implementation stages.
+
