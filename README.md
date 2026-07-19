@@ -2,7 +2,7 @@
 
 Scripts for generating a library of image and maps transformations and augmentations methods using an agentic AI pipeline that collect suggest and adapt scientific models, methods, and simulations.
 
-The pipeline generates functions for transforming, augmenting, and modifying images using  method, simulations and models and from a wide range of fields, including image processing, camera effects, mathematics, art, physics, biology, chemistry, and other areas of science.
+The pipeline generates functions for transforming, augmenting, and modifying images using  method, simulations and models and from a wide range of fields, including image processing, camera effects, mathematics, art, physics, biology, chemistry, and other areas of science or for inventing novel/creative ways for image transformation.
 
 The transformations can be applied to standard RGB images or to maps with any number of channels, such as PBR material maps and hyperspectral images.
 
